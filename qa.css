@@ -1,0 +1,47 @@
+body{
+    background-color:black;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container-fluid{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.form-check-input{
+    position:absolute;
+    top:20%;
+    font-size:18px;
+}
+
+i{
+    font-size:14px;
+}
+
+p{
+    font-family: Roboto;
+    letter-spacing: 0.5px;
+}
+
+.card:hover, .card:active, .card:focus{
+    border-color:cyan !important;
+    transition:0.35s;
+}
+
+
+
+@media only screen and (min-width: 576px) { 
+    p{
+        font-size:25px;
+    }
+    .form-check-input{
+        position:absolute;
+        top:25%;
+    }
+
+ }
